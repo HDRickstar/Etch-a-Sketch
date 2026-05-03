@@ -1,30 +1,5 @@
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-#container {
-  display: flex;
-  flex-wrap: wrap;
-
-  width: 80vw;        /* takes 80% of screen width */
-  max-width: 600px;   /* but never gets too big */
-
-  aspect-ratio: 1 / 1; /* keeps it a perfect square */
-
-  margin: 40px auto;  /* centers it horizontally */
-  border: 2px solid black;
-}
-
-.cell {
-  width: calc(100% / 16);
-  aspect-ratio: 1 / 1;
-  border: 1px solid black;
-  box-sizing: border-box;
-}
-
-.cell:hover{
-    background-color: black;
+.board{
+    width: 500px;
+    height: 500px;
+    display: grid;
 }
